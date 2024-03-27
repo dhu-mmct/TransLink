@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="shuanghong@10.199.154.8:22 password (40)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="shuanghong@10.199.154.8:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/shuanghong/Downloads/github/project/strongsortPure" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="shuanghong@10.199.154.8:22 password (11)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/shuanghong/Downloads/github/project/strongsortPure" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="shuanghong@10.199.154.8:22 password (40)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/shuanghong/Downloads/github/project/translink" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="strongsort">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/shuanghong/Downloads/github/project/strongsortPure" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
