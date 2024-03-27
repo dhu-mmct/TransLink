@@ -1,8 +1,6 @@
 # TransLink
 **TRANSLINK: TRANSFORMER-BASED EMBEDDING FOR TRACKLETS’ GLOBAL LINK**
 
-![MOTA-IDF1-HOTA](assets/MOTA-IDF1-HOTA.png)
-
 >**[StrongSORT: Make DeepSORT Great Again](https://ieeexplore.ieee.org/document/10097136)**
 >
 >Yanting Zhang, Shuanghong Wang, Yuxuan Fan, Gaoang Wang, Cairong Yan
@@ -11,9 +9,6 @@
 
 Multi-object tracking (MOT) is essential to many tasks related to the smart transportation. Detecting and tracking humans on the road can give a vital feedback for either the moving vehicle or traffic control to ensure better driving safety and traffic flow. However, most trackers face a common problem of identity (ID) switch, resulting in an incomplete human tra- jectory prediction. In this paper, we propose a Transformer- based tracklet linking method called TransLink to mitigate the association failures. Specifically, the self-attention mech- anism is well exploited to get the feature representation for tracklets, followed by a multilayer perceptron to predict the association likelihood, which can be further used in determin- ing the tracklet association. Experiments on the MOT dataset demonstrate the effectiveness of the proposed module in lift- ing the tracking performances.
 
-## vs. SOTA
-
-![comparison](assets/comparison.png)
 
 ## Data&Model Preparation
 
@@ -56,27 +51,16 @@ Define ` dir_in` to your own path, then run:
 ## Citation
 
 ```
-@misc{2202.13514,
-Author = {Yunhao Du and Yang Song and Bo Yang and Yanyun Zhao},
-Title = {StrongSORT: Make DeepSORT Great Again},
-Year = {2022},
-Eprint = {arXiv:2202.13514},
-}
-```
-You can also consider reading and citing our related work, GIAOTracker, which won the 2nd place in the VisDrone2021 MOT Challenge of ICCV Workshop:
-```
-@InProceedings{Du_2021_ICCV,
-    author    = {Du, Yunhao and Wan, Junfeng and Zhao, Yanyun and Zhang, Binyu and Tong, Zhihang and Dong, Junhao},
-    title     = {GIAOTracker: A Comprehensive Framework for MCMOT With Global Information and Optimizing Strategies in VisDrone 2021},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
-    month     = {October},
-    year      = {2021},
-    pages     = {2809-2819}
+@inproceedings{zhang2023translink,
+  title={Translink: Transformer-based embedding for tracklets’ global link},
+  author={Zhang, Yanting and Wang, Shuanghong and Fan, Yuxuan and Wang, Gaoang and Yan, Cairong},
+  booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2023},
+  organization={IEEE}
 }
 ```
 
 ## Acknowledgement
 
-A large part of the codes, ideas and results are borrowed from [DeepSORT](https://github.com/nwojke/deep_sort), [JDE](https://github.com/Zhongdao/Towards-Realtime-MOT), [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) and [ByteTrack](https://github.com/ifzhang/ByteTrack). Thanks for their excellent work!
-
-# TransLink
+A large part of the codes, ideas and results are borrowed from [DeepSORT](https://github.com/dyhBUPT/StrongSORT). Thanks for their excellent work!
