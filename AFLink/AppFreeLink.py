@@ -154,7 +154,7 @@ if __name__ == '__main__':
 
     dir_in = '/mnt/disk/shuanghong/new_dataset_result_wqx/reid-deepsort'
 
-    dir_out = dir_in + '-translink'
+    dir_out = dir_in + '-translink-test'
     if not exists(dir_out): os.mkdir(dir_out)
     model = AppearanceTrackletEmb()
 

@@ -2,7 +2,6 @@
 **TRANSLINK: TRANSFORMER-BASED EMBEDDING FOR TRACKLETS’ GLOBAL LINK**
 
 >**[StrongSORT: Make DeepSORT Great Again](https://ieeexplore.ieee.org/document/10097136)**
->
 >Yanting Zhang, Shuanghong Wang, Yuxuan Fan, Gaoang Wang, Cairong Yan
 
 ## Abstract
@@ -12,17 +11,15 @@ Multi-object tracking (MOT) is essential to many tasks related to the smart tran
 
 ## Data&Model Preparation
 
-1. Download MOT17 & MOT20 from the [official website](https://motchallenge.net/).
+1. Download MOT17 from the [official website](https://motchallenge.net/).
 
    ```
    path_to_dataset/MOTChallenge
    ├── MOT17
    	│   ├── test
    	│   └── train
-   └── MOT20
-       ├── test
-       └── train
    ```
+2. Download the [model](https://drive.google.com/file/d/134qs20wPvq9cu04aDxIno7doejr5JYJP/view?usp=sharing) in Google disk
 
 ## Requirements
 
@@ -63,4 +60,4 @@ Define ` dir_in` to your own path, then run:
 
 ## Acknowledgement
 
-A large part of the codes, ideas and results are borrowed from [DeepSORT](https://github.com/dyhBUPT/StrongSORT). Thanks for their excellent work!
+A large part of the codes, ideas and results are borrowed from [StrongSORT](https://github.com/dyhBUPT/StrongSORT). Thanks for their excellent work!
