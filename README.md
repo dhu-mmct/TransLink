@@ -39,7 +39,7 @@ Define `root_img`, `dir_in_det`, and `dir_out_det` to your own path, and then ru
 
 - **Run StrongSORT on MOT17-val**
 
-Define ` dir_in` to your own path, then run:
+Define `dir_in` to your own path, and then run:
 
   ```shell
   python AFLink/AppFreeLink.py
