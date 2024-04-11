@@ -1,7 +1,7 @@
 # TransLink
 **TRANSLINK: TRANSFORMER-BASED EMBEDDING FOR TRACKLETS’ GLOBAL LINK**
 
->**[StrongSORT: Make DeepSORT Great Again](https://ieeexplore.ieee.org/document/10097136)**
+>**[TRANSLINK: TRANSFORMER-BASED EMBEDDING FOR TRACKLETS’ GLOBAL LINK](https://ieeexplore.ieee.org/document/10097136)**
 >Yanting Zhang, Shuanghong Wang, Yuxuan Fan, Gaoang Wang, Cairong Yan
 
 ## Abstract
@@ -60,4 +60,4 @@ Define `dir_in` to your own path, and then run:
 
 ## Acknowledgement
 
-A large part of the codes, ideas and results are borrowed from [StrongSORT](https://github.com/dyhBUPT/StrongSORT). Thanks for their excellent work!
+A large part of the codes, ideas and results are borrowed from [StrongSORT](https://github.com/dyhBUPT/StrongSORT) and [Split and Connect: A Universal Tracklet Booster for Multi-Object Tracking](https://ieeexplore.ieee.org/document/9672670). Thanks for their excellent work!
